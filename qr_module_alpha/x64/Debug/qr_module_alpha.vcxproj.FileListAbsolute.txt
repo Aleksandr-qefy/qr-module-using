@@ -1,0 +1,2 @@
+C:\Users\Admin\Desktop\Проект qr code\qr_module_alpha\x64\Debug\qr_module_alpha.pyd
+C:\Users\Admin\Desktop\Проект qr code\Full qr module using\qr_module_alpha\x64\Debug\qr_module_alpha.pyd

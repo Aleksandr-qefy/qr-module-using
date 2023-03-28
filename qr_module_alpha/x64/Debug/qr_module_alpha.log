@@ -1,0 +1,11 @@
+﻿  BoolMatrix.cpp
+  Databases.cpp
+  InputOutput.cpp
+  Matrix.cpp
+  QRcode.cpp
+  QRfunctions.cpp
+  module.cpp
+  TablesHandlers.cpp
+  Создание кода...
+     Создается библиотека C:\Users\Admin\Desktop\Проект qr code\Full qr module using\qr_module_alpha\x64\Debug\qr_module_alpha.lib и объект C:\Users\Admin\Desktop\Проект qr code\Full qr module using\qr_module_alpha\x64\Debug\qr_module_alpha.exp
+  qr_module_alpha.vcxproj -> C:\Users\Admin\Desktop\Проект qr code\Full qr module using\qr_module_alpha\x64\Debug\qr_module_alpha.pyd

@@ -1,0 +1,204 @@
+				////cout << "pow_int()" << pow_int(2, 172) << endl;
+		//cout << "exp_of_2_to_int() " << exp_of_2_to_int(255) << endl;
+		//cout << "int_to_exp_of_2() " << int_to_exp_of_2(1) << endl;
+
+		////for (int i = 0; i < 1000; i++)
+		////	cout << i << " (response ^ 285) > 255 " << ( (i ^ 285) > 255 ) << endl;
+
+		//for (int i = 0; i < 256; i++)
+		//	if (int_to_exp_of_2(exp_of_2_to_int(i)) != i) cout << i << endl;
+
+		//cout << "exp_of_2_to_int() " << exp_of_2_to_int(255) << endl;
+		//cout << "int_to_exp_of_2() " << int_to_exp_of_2(1) << endl;
+
+		//for (int i = 1; i < 256; i++)
+		//	if (int_to_exp_of_2(i) == 255) cout << i << endl;
+
+		//for (int i = 1; i < 256; i++)
+		//	cout << "int_to_exp_of_2() " << int_to_exp_of_2(i) << endl;
+
+		//const int m = 10;
+		//const int n = 10;
+		//BoolMatrix matrix(m, n);
+		////for (int i = 0; i < m; i++)
+		////	for (int j = 0; j < n; j++)
+		////		//matrix.setElByIds(i, j, 1);
+		////		matrix.setElByIds(i, j, rand() % 2);
+		////matrix.show();
+		////matrix.setElByIds(0, 0, 0);
+		////matrix.show();
+		//BoolMatrix matrix2(m, n);
+		//for (int i = 0; i < m; i++)
+		//	for (int j = 0; j < n; j++)
+		//		matrix2.setElByIds(i, j, i == j || i == n - j - 1);
+
+		//BoolMatrix matrix3 = matrix.unite(matrix2, 0, 0);
+		//matrix.unite(matrix2, 0, 0);
+		//matrix.show();
+		//matrix3.show();
+		////matrix.setElByIds(m, n, 1);
+
+		//int arr[] { 1, 0, 0, 1, 0, 1 };
+		//BoolMatrix matrix4(arr, 6, 3, 3);
+		//matrix4.show();
+		
+		//namespace Table = AlignmentPatternLocationsTable;
+		//unsigned char** table = Table::init();
+		//for (int i = 0; i < Table::rowsCount; i++) {
+		//	for (int j = 0; j < Table::countsArr[i]; j++)
+		//		cout << (int) table[i][j] << " ";
+		//	cout << endl;
+		//}
+
+		//namespace Table = AlignmentPatternLocationsTable;
+		//for (int i = 0; i < Table::rowsCount; i++) {
+		//	int* row = Table::getRow(i);
+		//	for (int j = 0; j < Table::countsArr[i]; j++)
+		//		cout << (int)row[j] << " ";
+		//	cout << endl;
+		//}
+
+		//namespace Table = AlignmentPatternLocationsTable;
+		//int* row = Table::getRow(5);
+		//for (int j = 0; j < Table::countsArr[5]; j++)
+		//	cout << (int)row[j] << " ";
+		//cout << endl;
+
+		//namespace Table = CharacterCapacitiesTable;
+		//char16_t** table = Table::init();
+		//for (int i = 0; i < Table::rowsCount; i++) {
+		//	for (int j = 0; j < Table::valuesPerRow; j++)
+		//		cout << (int)table[i][j] << " ";
+		//	cout << endl;
+		//}
+
+		//namespace Table1 = Databases::CharacterCapacitiesTable;
+		//for (int i = 0; i < Table1::rowsCount; i++) {
+		//	int* row = Table1::getRow(i);
+		//	for (int j = 0; j < Table1::valuesPerRow; j++)
+		//		cout << (int) row[j] << " ";
+		//	cout << endl;
+		//}
+
+		//namespace Table2 = Databases::GeneratorPolynomialsTable; // GeneratorPolynomialsTable; // ErrorCorrectionTable;
+		//for (int i = 0; i < Table2::rowsCount; i++) {
+		//	int* row = Table2::getRow(i);
+		//	for (int j = 0; j < Table2::countsArr[i]; j++)
+		//		cout << (int)row[j] << " ";
+		//	cout << endl;
+		//}
+
+		//for (int i = 0; i < rowsCount; i++) {
+		//	int* row = getRow(i);
+		//	for (int j = 0; j < countsArr[i]; j++)
+		//		cout << (int)row[j] << " ";
+		//	cout << endl;
+		//}
+
+		//namespace Table = Databases::VersionCodesTable; // RemainderBitsTable; // CharacterCapacitiesTable;
+		//int** table = Table::init();
+		//for (int i = 0; i < Table::rowsCount; i++) {
+		//	for (int j = 0; j < Table::valuesPerRow; j++)
+		//		cout << (int)table[i][j] << " ";
+		//	cout << endl;
+		//}
+
+		//namespace Table = VersionCodesTable;
+		//for (int i = 0; i < Table::rowsCount; i++) {
+		//	int* row = Table::getRow(i);
+		//	for (int j = 0; j < Table::valuesPerRow; j++)
+		//		cout << (int) row[j] << " ";
+		//	cout << endl;
+		//}
+
+		//int* row = getCodeWordsNumbers(1, L); //(1, QRcode::L);//(11, QRcode::M);
+		//out::printArr<>(row, 6);
+		//delete[] row;
+
+		//int len;
+		//int* row = alignmentPatternLocations(21, &len);
+		////cout << len << endl;
+		//out::printArr<>(row, len);
+		//delete[] row;
+
+		//BoolMatrix bm(5, 5, true);
+		//bm.show_def();
+		///*BoolMatrix*/ bm = *versionPatternsTable(7);
+		//bm.show();
+
+		//bm = *transpose(bm);
+		//bm.show();
+
+		//int len;
+		//int* row = getRemainderBits(5, &len);
+		//out::printArr<>(row, len);
+		//delete[] row;
+
+		//cout << getCharacterCapacities(5, L, 0) << endl;
+
+
+
+		
+		//QRcode qr_code(20, L, 4);
+
+
+		////101010000010010
+
+		////BigInt bi("000101010000010010101010000010010101010000010010", 45 + 3);
+		//////                     101010000010010101010000010010101010000010010
+		//////BigInt bi((char*) "1", 1);
+		////cout << "Результат:" << bi << endl;
+
+		////BigInt bi1("101010000010010", 15);
+		////cout << "bi1 = bi :" << endl << bi << endl;
+		////bi1 = bi;
+		////for (int i = 0; i < 45; i++)
+		////{
+		////	//if (!((i + 1) % 5)) cout << bi << endl;
+		////	bi1.bitwise_right_shift();
+		////	cout << bi1 << endl;
+		////}
+		////bi = bi;
+		////cout << "bi << 100 : " << (bi << 100) << endl;
+		////cout << "bi :      " << bi << endl;
+		////bi >> 45;
+		////cout << "bi >> 45 :" << bi << endl;
+		//BigInt bi("0101010000010010", 16);
+		//BigInt bi1 = bi << 7;
+		//cout << "bi1 : " << bi1 << endl;
+		//cout << "bi :  " << bi << endl;
+
+		//BigInt bi2("0", 1);
+		//cout << "bi2 : " << bi2 << endl;
+
+		//BigInt a("10000000", 8);
+		//BigInt b("1111111110000000", 16);
+		//BigInt c = a + b;
+		//cout << "a : " << a << endl;
+		//cout << "b : " << b << endl;
+		//cout << "c = a + b : " << c << endl;
+
+		////b = BigInt(0b10000000100000001000000010000000);
+		//a = BigInt(0b11011);
+		//b = BigInt(0b1101);
+		//cout << "a : " << a << endl;
+		//cout << "b : " << b << endl;
+		//cout << "a - b : " << a - b << endl;
+
+		//a = BigInt(0b10101101011010110101);
+		//b = BigInt(0b01010010100101001011);
+		//cout << "a : " << a << endl;
+		//cout << "b : " << b << endl;
+		//cout << "a ^ b : " << (a ^ b) << endl;
+		//cout << "a | b : " << (a | b) << endl;
+
+		//b = BigInt(0b10101101011010110101);
+		//a = BigInt(0b01010010100101001011);
+		//b = a;
+		//cout << "a : " << a << endl;
+		//cout << "b : " << b << endl;
+		//cout << "a == b : " << (a == b) << endl;
+		//cout << "a < b : " << (a < b) << endl;
+		//cout << "a > b : " << (a > b) << endl;
+		//cout << "a <= b : " << (a <= b) << endl;
+		//cout << "a >= b : " << (a >= b) << endl;
